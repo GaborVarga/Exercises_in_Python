@@ -51,4 +51,5 @@ while okay != 1 :
         continue
 
 maxi(number1, number2)
+
 sys.exit()
