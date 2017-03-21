@@ -22,8 +22,10 @@ def checkchar (c):
     vowels = ['a','e','i','o','u']
     if c in vowels:
         print("\nThis is a vowel!")
+        return True
     else :
         print("This is not a vowel.")
+        return False
 
 ##########            
 # Script #
@@ -35,4 +37,4 @@ singlechar = raw_input("Please type 1 character: ")
 while len(singlechar) != 1 :
     singlechar = raw_input("Please type only 1 character: ")
 
-checkchar(singlechar)
+print(checkchar(singlechar))
