@@ -31,4 +31,4 @@ i = 0
 for character in inputstring :
     i = i +1
     # print (character)
-print ("\nLength of string is: ",i)
+print ("\nLength of the given string is: ",i)
