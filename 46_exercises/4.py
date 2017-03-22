@@ -11,7 +11,6 @@
 # 
 # http://www.ling.gu.se/~lager/python_exercises.html
 
-import sys
 from pip._vendor.distlib.compat import raw_input
 
 ###############
@@ -30,7 +29,6 @@ def checkchar (c):
 ##########            
 # Script #
 ##########
-
 
 singlechar = raw_input("Please type 1 character: ")
 
